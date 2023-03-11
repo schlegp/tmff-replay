@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "01nr+GhjKcfWFh8m2IQy+DiEY88+11uJuOYBztn0JOVQCFs/YPzK5XyltnZsHb6qFROYXGlTPW0O7H4ni0o27w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\phili\\tmff-replay\\ReplayTool\\ReplayTool.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\phili\\.nuget\\packages\\libusbdotnet\\3.0.102-alpha\\libusbdotnet.3.0.102-alpha.nupkg.sha512"
+  ],
+  "logs": []
+}

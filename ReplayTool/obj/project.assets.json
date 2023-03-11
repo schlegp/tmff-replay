@@ -1,0 +1,145 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "LibUsbDotNet/3.0.102-alpha": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/LibUsbDotNet.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/LibUsbDotNet.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx-arm64/native/libusb-1.0.dylib": {
+            "assetType": "native",
+            "rid": "osx-arm64"
+          },
+          "runtimes/osx-x64/native/libusb-1.0.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-arm64/native/libusb-1.0.dll": {
+            "assetType": "native",
+            "rid": "win-arm64"
+          },
+          "runtimes/win-x64/native/libusb-1.0.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libusb-1.0.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "BytePacketExtractor/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/BytePacketExtractor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BytePacketExtractor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibUsbDotNet/3.0.102-alpha": {
+      "sha512": "OhZQNKqy4pso1YCWi3SjUCCDW05K8POwU0utIpZW2SsoHkCePSb1kAH3qBd8+sjHwRGa77U9fUn2/bXsdKOU2w==",
+      "type": "package",
+      "path": "libusbdotnet/3.0.102-alpha",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/LibUsbDotNet.dll",
+        "lib/netcoreapp3.1/LibUsbDotNet.dll",
+        "libusbdotnet.3.0.102-alpha.nupkg.sha512",
+        "libusbdotnet.nuspec",
+        "runtimes/osx-arm64/native/libusb-1.0.dylib",
+        "runtimes/osx-x64/native/libusb-1.0.dylib",
+        "runtimes/win-arm64/native/libusb-1.0.dll",
+        "runtimes/win-x64/native/libusb-1.0.dll",
+        "runtimes/win-x86/native/libusb-1.0.dll"
+      ]
+    },
+    "BytePacketExtractor/1.0.0": {
+      "type": "project",
+      "path": "../BytePacketExtractor/BytePacketExtractor.csproj",
+      "msbuildProject": "../BytePacketExtractor/BytePacketExtractor.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "BytePacketExtractor >= 1.0.0",
+      "LibUsbDotNet >= 3.0.102-alpha"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\phili\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\phili\\tmff-replay\\ReplayTool\\ReplayTool.csproj",
+      "projectName": "ReplayTool",
+      "projectPath": "C:\\Users\\phili\\tmff-replay\\ReplayTool\\ReplayTool.csproj",
+      "packagesPath": "C:\\Users\\phili\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\phili\\tmff-replay\\ReplayTool\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\phili\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\phili\\tmff-replay\\BytePacketExtractor\\BytePacketExtractor.csproj": {
+              "projectPath": "C:\\Users\\phili\\tmff-replay\\BytePacketExtractor\\BytePacketExtractor.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "dependencies": {
+          "LibUsbDotNet": {
+            "target": "Package",
+            "version": "[3.0.102-alpha, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

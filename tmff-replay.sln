@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReplayTool", "ReplayTool\ReplayTool.csproj", "{B7A06ED5-47D0-450D-ADF5-4D24AAEA1EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BytePacketExtractor", "BytePacketExtractor\BytePacketExtractor.csproj", "{ED96C985-2551-4064-B8FA-6E3D6774A930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7A06ED5-47D0-450D-ADF5-4D24AAEA1EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A06ED5-47D0-450D-ADF5-4D24AAEA1EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A06ED5-47D0-450D-ADF5-4D24AAEA1EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A06ED5-47D0-450D-ADF5-4D24AAEA1EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED96C985-2551-4064-B8FA-6E3D6774A930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED96C985-2551-4064-B8FA-6E3D6774A930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED96C985-2551-4064-B8FA-6E3D6774A930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED96C985-2551-4064-B8FA-6E3D6774A930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
