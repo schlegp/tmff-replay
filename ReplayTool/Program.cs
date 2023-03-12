@@ -12,7 +12,7 @@ using LibUsbDotNet.Main;
 /// Args[1] = csv-File to read data from
 /// 
 
-var csvFile = File.ReadAllLines(args[0]);
+var csvFile = File.ReadAllLines(args[1]);
 // var csvFile = File.ReadAllLines("Unlock100Set100SetDamping1ExtremeTestFFBSetDamping0TestFFB.csv");
 var packetExtractor = new Extractor();
 var packets = packetExtractor.ExtractFromCsvFile(csvFile).ToList();
